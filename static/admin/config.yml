@@ -1,9 +1,7 @@
 backend:
   name: github
   repo: rossmaryrangel/Mary-website
-  branch: main # Branch to update (optional; defaults to master)
-  site_domain: https://rossmaryrangel.com
-  base_url: https://rossmaryrangel.com
+  branch: master # Branch to update (Align with Cloudflare production branch)
   auth_endpoint: /api/auth
 
 media_folder: "static/images/uploads"
