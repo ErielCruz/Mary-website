@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway        # or your chosen backend
-  branch: main             # or your default branch
+  name: github
+  repo: rossmaryrangel/Mary-website
+  branch: main # Branch to update (optional; defaults to master)
+  site_domain: https://rossmaryrangel.com
+  base_url: https://rossmaryrangel.com
+  auth_endpoint: /api/auth
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
